@@ -60,6 +60,74 @@ html {
   color: #ff565b;
 }
 
+/*--------------------------------------------------------------
+# Clients
+--------------------------------------------------------------*/
+.clients {
+  padding: 15px 0;
+  text-align: center;
+}
+.clients img {
+  max-width: 45%;
+  transition: all 0.4s ease-in-out;
+  display: inline-block;
+  padding: 15px 0;
+  filter: grayscale(100);
+}
+.clients img:hover {
+  filter: none;
+  transform: scale(1.15);
+}
+@media (max-width: 768px) {
+  .clients img {
+    max-width: 40%;
+  }
+}
+
+/*--------------------------------------------------------------
+# Counts
+--------------------------------------------------------------*/
+.counts {
+  padding-top: 80px;
+}
+.counts .count-box {
+  padding: 30px 30px 25px 30px;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  box-shadow: 0px 2px 35px rgba(0, 0, 0, 0.06);
+  border-radius: 4px;
+}
+.counts .count-box i {
+  position: absolute;
+  width: 54px;
+  height: 54px;
+  top: -27px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24px;
+  background: #fff;
+  color: #e03a3c;
+  border-radius: 50px;
+  border: 2px solid #fff;
+  box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.counts .count-box span {
+  font-size: 36px;
+  display: block;
+  font-weight: 700;
+  color: #111111;
+}
+.counts .count-box p {
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+}
+
 .section-heading h2 {
   color: #ffffff;
   font-size: 50px;
@@ -716,6 +784,7 @@ section {
 .testimonials .testimonial-item p {
   font-style: italic;
   margin: 30px auto 15px auto;
+  height: 200px;
 }
 
 .testimonials .swiper-pagination {
@@ -736,48 +805,43 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Team
+# trending-design
 --------------------------------------------------------------*/
-.team .member {
+.trending-design .trend {
   margin-bottom: 20px;
   overflow: hidden;
   border-radius: 5px;
   background: #fff;
 }
 
-.team .member .member-img {
+.trending-design .trend .trend-img {
   position: relative;
   overflow: hidden;
 }
 
-.team .member .member-info {
+.trending-design .trend .trend-info {
   padding: 25px 15px;
 }
 
-.team .member .member-info h4 {
+.trending-design .trend .trend-info h4 {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 18px;
   color: #111111;
 }
 
-.team .member .member-info span {
+.trending-design .trend .trend-info span {
   display: block;
   font-size: 13px;
   font-weight: 400;
   color: #aaaaaa;
 }
 
-.team .member .member-info p {
+.trending-design .trend .trend-info p {
   font-style: italic;
   font-size: 14px;
   line-height: 26px;
   color: #777777;
-}
-
-.team .member:hover .social {
-  opacity: 1;
-  bottom: 15px;
 }
 
 /*--------------------------------------------------------------
