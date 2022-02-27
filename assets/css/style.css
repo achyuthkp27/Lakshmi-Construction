@@ -63,29 +63,36 @@ html {
   font-style: normal;
   color: #ff565b;
 }
+
+
 /*--------------------------------------------------------------
 # Clients
 --------------------------------------------------------------*/
-.clients {
-  padding: 15px 0;
-  text-align: center;
+.clients .clients-wrap {
+  border-top: 1px solid #ececec;
+  border-left: 1px solid #ececec;
 }
-.clients img {
-  max-width: 45%;
-  transition: all 0.4s ease-in-out;
-  display: inline-block;
-  padding: 15px 0;
-  filter: grayscale(100);
+.clients .client-logo {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
+  overflow: hidden;
+  background: #fff;
+  height: 100px;
 }
-.clients img:hover {
+.clients .client-logo img {
+  transition: all 0.3s ease-in-out;
+  height: 36px;
+  filter: grayscale(100%);
+}
+.clients .client-logo:hover img {
   filter: none;
-  transform: scale(1.15);
+  transform: scale(1.1);
 }
-@media (max-width: 768px) {
-  .clients img {
-    max-width: 40%;
-  }
-}
+
 
 /*--------------------------------------------------------------
 # Counts
