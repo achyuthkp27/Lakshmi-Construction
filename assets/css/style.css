@@ -23,7 +23,7 @@ html {
   scroll-behavior: smooth;
 }
 
-#main-page{
+#main-page {
   max-height: 100vh;
 }
 .main-banner {
@@ -64,7 +64,6 @@ html {
   color: #ff565b;
 }
 
-
 /*--------------------------------------------------------------
 # Clients
 --------------------------------------------------------------*/
@@ -92,7 +91,6 @@ html {
   filter: none;
   transform: scale(1.1);
 }
-
 
 /*--------------------------------------------------------------
 # Counts
@@ -545,14 +543,14 @@ section {
   margin-bottom: 30px;
 }
 
-.portfolio #portfolio-flters {
+.portfolio #portfolio-filters {
   padding: 0;
   margin: 0 auto 20px auto;
   list-style: none;
   text-align: center;
 }
 
-.portfolio #portfolio-flters li {
+.portfolio #portfolio-filters li {
   cursor: pointer;
   display: inline-block;
   padding: 8px 15px 10px 15px;
@@ -566,13 +564,13 @@ section {
   border-radius: 3px;
 }
 
-.portfolio #portfolio-flters li:hover,
-.portfolio #portfolio-flters li.filter-active {
+.portfolio #portfolio-filters li:hover,
+.portfolio #portfolio-filters li.filter-active {
   color: #fff;
   background: #e03a3c;
 }
 
-.portfolio #portfolio-flters li:last-child {
+.portfolio #portfolio-filters li:last-child {
   margin-right: 0;
 }
 
@@ -1029,7 +1027,7 @@ section.whats-trending .left-content {
 
 /*
 ---------------------------------------------
-subscribe
+call-to-action
 ---------------------------------------------
 */
 
