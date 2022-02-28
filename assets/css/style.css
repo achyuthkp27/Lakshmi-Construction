@@ -1073,3 +1073,35 @@ call-to-action
 .main-button a:hover {
   background-color: #f9735b;
 }
+
+.team4 {
+  color: #8d97ad;
+}
+
+.team4 h1,
+.team4 h2,
+.team4 h3,
+.team4 h4,
+.team4 h5,
+.team4 h6 {
+  color: #3e4555;
+}
+.team4 h2 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.team4 .font-weight-medium {
+  font-weight: 600;
+}
+
+.team4 h5 {
+  line-height: 22px;
+  font-size: 22px;
+}
+
+.team4 .subtitle {
+  color: #8d97ad;
+  line-height: 24px;
+  font-size: 15px;
+}
