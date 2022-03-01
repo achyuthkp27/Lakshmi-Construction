@@ -985,11 +985,6 @@ section {
   transition: 0.3s;
 }
 
-#footer .social-links .twitter:hover {
-  color: #00acee;
-  background: #fff;
-  text-decoration: none;
-}
 #footer .social-links .whatsapp:hover {
   color: #fff;
   background: #25d366;
