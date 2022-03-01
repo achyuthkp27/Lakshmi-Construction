@@ -73,27 +73,32 @@
       <!-- .navbar -->
   </header>
   <!-- End Header -->
-
-  <!-- ======= Main Page  ======= -->
+  <!-- ======= Hero Section ======= -->
   <section id="main-page">
 
-    <div class="main-banner change-name">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="header-text">
-              <h6>We Provide Everything</h6>
-              <h2><em class="txt-rotate" data-period="2000"
-                  data-rotate='[ "Interior", "Residential", "Restaurant","Corporate", "Exterior"]'>Interior</em>
-                Designer</h2>
-              <div class="white-button">
-                <a class="nav-link scrollTo" href="#about">Discover More</a>
-              </div>
+    <div id="hero" class="hero route bg-image" style="background-image: url(assets/img/banner-bg.jpg)">
+      <div class="overlay-intro"></div>
+      <div class="hero-content display-table">
+        <div class="table-cell">
+          <div class="container">
+            <p class="display-6 color-d">HELLO!</p>
+            <h6 class="hero-title mb-4">We Provide Everything</h6>
+            <h2 class="hero-subtitle"><em class="txt-rotate" data-period="2000"
+                data-rotate='[ "Interior", "Residential", "Restaurant","Corporate", "Exterior"]'>Interior</em>
+              Designer</h2>
+            <div class="white-button">
+              <a class="nav-link scrollTo" href="#about">Discover More</a>
             </div>
+            <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
           </div>
         </div>
       </div>
-    </div>
+    </div><!-- End Hero Section -->
+
+    <!-- ======= Main Page  ======= -->
+    <div class="main-banner change-name">
+
+
   </section>
   <!-- End Main -->
 
@@ -1082,25 +1087,27 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
   <script src="assets/js/animation.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-
-  <!-- Don't Delete -->
-
-  <!-- <script>
-    const slideImg = document.getElementsByClassName("main-banner")[0];
-    const images = new Array("assets/img/slide-01.jpg", "assets/img/slide-02.jpg", "assets/img/slide-03.jpg", "assets/img/banner-bg.jpg");
+  <script>
+    const slideImg = document.getElementsByClassName("hero")[0];
+    const images = [
+      "assets/img/banner-bg.jpg",
+      "assets/img/slide-01.jpg",
+      "assets/img/slide-02.jpg",
+      "assets/img/slide-03.jpg"
+    ];
     const len = images.length;
     let i = 0;
+    
     function Slider() {
       if (i > len - 1) {
         i = 0;
       }
       slideImg.style.backgroundImage = "url(" + images[i] + ")";
       i++;
-      setTimeout('Slider()', 4000)
+      setTimeout("Slider()", 4000);
     }
-    Slider()
-  </script> -->
+    Slider();
+  </script>
 </body>
 
 </html>

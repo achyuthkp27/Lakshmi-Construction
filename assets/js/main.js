@@ -151,7 +151,7 @@
   });
 
   /**
-   * Porfolio isotope and filter
+   * Portfolio isotope and filter
    */
   window.addEventListener("load", () => {
     let portfolioContainer = select(".portfolio-container");
@@ -179,13 +179,6 @@
         true
       );
     }
-  });
-
-  /**
-   * Initiate portfolio lightbox
-   */
-  const portfolioLightbox = GLightbox({
-    selector: ".portfolio-lightbox",
   });
 
   /**
