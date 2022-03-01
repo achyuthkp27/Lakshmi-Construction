@@ -76,7 +76,8 @@
 
   <!-- ======= Main Page Section ======= -->
   <section id="main-page">
-    <div id="main-banner" class="main-banner route bg-image" style="background-image: url(assets/img/Banner-Slider/slide-01.jpg)">
+    <div id="main-banner" class="main-banner route bg-image"
+      style="background-image: url(assets/img/Banner-Slider/slide-01.jpg)">
       <div class="overlay-intro"></div>
       <div class="main-banner-content display-table">
         <div class="table-cell">
@@ -188,6 +189,37 @@
       </div>
     </section>
     <!-- End Portfolio Details Section -->
+
+    <!-- Video Section -->
+    <section id="temp" class="temp container" data-aos="fade-up">
+      <div class="row align-items-center">
+        <div class="col-md-6 image">
+          <!-- <img src="assets/img/team/a (3).jpg" width="90%" alt=""> -->
+          <video width="90%" autoplay muted>
+            <source src="assets/img/facts.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+
+        <div class="col-md-6 info">
+          <h2>the best Interior Design in the city</h2>
+          <p>We are the best Interior designer since 2018. <br><br>
+            We offer comprehensive design packages that include project management from start to finish.
+            This helps remove the stress and worry of remodeling or redecorating while still involving you in the
+            process</p>
+          <p>Layering patterns and textures with a mix of custom and found vintage objects, and pulling from
+            a global design perspective, each space reflects the client's own personality.</p>
+          <div class="icons">
+            <a href="https://www.instagram.com/lakshmiconstructions2018/" class="instagram" target="_blank"><i
+                class="bi bi-instagram"></i></a>
+            <a href="https://wa.me/916363333138?text=Hello%20I%20want%20to%20enquire" class="whatsapp" target="_blank">
+              <i class="bi bi-whatsapp"></i></a>
+            <a href="https://www.facebook.com/lakshmiconstruction2018" class="facebook" target="_blank"><i
+                class="bi bi-facebook"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- ***** Call to Action Start ***** -->
     <section class="section" id="call-to-action" data-aos="zoom-in-up">
@@ -1015,15 +1047,15 @@
                 <div class="info-box">
                   <i class="bi bi-geo-alt-fill"></i>
                   <h3>Our Address</h3>
-                  <p>Bangalore</p>
+                  <p>Bangalore road Challakere,<br>Karnataka, India 577522</p>
                 </div>
               </div>
               <div class="col-md-6">
-                <a href='mailto:paniraj@gmail.com?subject=Get you service&body=Hello I am planning...!'>
+                <a href='mailto:paniraj@gmail.com?subject=Get your service&body=Hello I am planning...!'>
                   <div class="info-box mt-4">
                     <i class="bi bi-envelope-fill"></i>
                     <h3>Email Us</h3>
-                    <p>paniraj@gmail.com</p>
+                    <p>Paniraj.raj@gmail.com</p>
                   </div>
                 </a>
               </div>
@@ -1056,10 +1088,11 @@
             Construction<span>.</span></a></h1>
       </div>
       <div class="social-links text-center text-md-end pt-3 pt-md-0">
-        <a href="https://www.instagram.com/lakshmiconstructions2018/" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="https://wa.me/916363333138?text=Hello%20I%20want%20to%20enquire" class="whatsapp">
+        <a href="https://www.instagram.com/lakshmiconstructions2018/" class="instagram" target="_blank"><i
+            class="bi bi-instagram"></i></a>
+        <a href="https://wa.me/916363333138?text=Hello%20I%20want%20to%20enquire" class="whatsapp" target="_blank">
           <i class="bi bi-whatsapp"></i></a>
-        <a href="https://www.facebook.com/lakshmiconstruction2018" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.facebook.com/lakshmiconstruction2018" class="facebook" target="_blank"><i class="bi bi-facebook"></i></a>
       </div>
     </div>
   </footer>
@@ -1092,7 +1125,7 @@
     ];
     const len = images.length;
     let i = 0;
-    
+
     function Slider() {
       if (i > len - 1) {
         i = 0;
