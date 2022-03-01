@@ -232,11 +232,8 @@
    */
   window.addEventListener("load", () => {
     AOS.init({
-      offset: 250,
       duration: 1000,
-      easing: "ease-in-out",
-      mirror:false,
-      once:true
+      easing: "ease-in-out"
     });
   });
 })();
