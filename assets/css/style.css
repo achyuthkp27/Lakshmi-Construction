@@ -26,16 +26,16 @@ html {
 /*--------------------------------------------------------------
 # main page
 --------------------------------------------------------------*/
-.hero {
+.main-banner {
   height: 100vh;
   position: relative;
   color: #fff;
 }
-.hero .hero-content {
+.main-banner .main-banner-content {
   text-align: center;
   position: absolute;
 }
-.hero .overlay-intro {
+.main-banner .overlay-intro {
   background-color: rgba(0, 0, 0, 0.6);
   position: absolute;
   top: 0;
@@ -46,7 +46,7 @@ html {
   opacity: 0.9;
 }
 
-.hero .hero-title {
+.main-banner .main-banner-title {
   font-size: 1.5rem;
   color: #fff;
   text-transform: uppercase;
@@ -54,11 +54,11 @@ html {
   letter-spacing: 2.5px;
 }
 @media (min-width: 768px) {
-  .hero .hero-title {
+  .main-banner .main-banner-title {
     font-size: 1.5rem;
   }
 }
-.hero .hero-subtitle {
+.main-banner .main-banner-subtitle {
   color: #ffffff;
   font-size: 2.5rem;
   font-weight: 700;
@@ -68,11 +68,11 @@ html {
   font-style: normal;
 }
 @media (min-width: 768px) {
-  .hero .hero-subtitle {
+  .main-banner .main-banner-subtitle {
     font-size: 3.5rem;
   }
 }
-.hero .hero-subtitle em {
+.main-banner .main-banner-subtitle em {
   font-size: 2.5rem;
   font-weight: 700;
   font-style: normal;
@@ -81,12 +81,12 @@ html {
   margin-bottom: 25px;
 }
 @media (min-width: 768px) {
-  .hero .hero-subtitle em {
+  .main-banner .main-banner-subtitle em {
     font-size: 3.5rem;
   }
 }
 
-.hero .text-slider-items {
+.main-banner .text-slider-items {
   display: none;
 }
 

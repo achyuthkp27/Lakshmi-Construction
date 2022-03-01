@@ -2,26 +2,6 @@ setTimeout(function () {
   $(".loader").fadeToggle();
 }, 1000);
 
-$("a[href='#main-page']").click(function () {
-  $("html, body").animate({ scrollTop: 0 }, "slow");
-  return false;
-});
-$("a[href='#contact']").click(function () {
-  $("html, body").animate({ scrollTop: $("#contact").offset().top }, "slow");
-});
-$("a[href='#about']").click(function () {
-  $("html, body").animate({ scrollTop: $("#about").offset().top }, "slow");
-});
-$("a[href='#services']").click(function () {
-  $("html, body").animate({ scrollTop: $("#services").offset().top }, "slow");
-});
-$("a[href='#portfolio']").click(function () {
-  $("html, body").animate({ scrollTop: $("#portfolio").offset().top }, "slow");
-});
-$("a[href='#trending']").click(function () {
-  $("html, body").animate({ scrollTop: $("#trending").offset().top }, "slow");
-});
-
 let TxtRotate = function (el, toRotate, period) {
   this.toRotate = toRotate;
   this.el = el;
