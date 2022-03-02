@@ -36,7 +36,7 @@ html {
   position: absolute;
 }
 .main-banner .overlay-intro {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.671);
   position: absolute;
   top: 0;
   left: 0px;
@@ -101,7 +101,6 @@ html {
 @keyframes zoom {
   0% {
     background-size: 100% 100%;
-    opacity: 0.7;
   }
   25% {
     background-size: 110% 110%;
