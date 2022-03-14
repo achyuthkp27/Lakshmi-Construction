@@ -157,34 +157,6 @@ html {
 }
 
 /*--------------------------------------------------------------
-# Clients
---------------------------------------------------------------*/
-/* .clients .clients-wrap {
-  border-top: 1px solid #ececec;
-  border-left: 1px solid #ececec;
-}
-.clients .client-logo {
-  padding: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-right: 1px solid #ececec;
-  border-bottom: 1px solid #ececec;
-  overflow: hidden;
-  background: #fff;
-  height: 100px;
-}
-.clients .client-logo img {
-  transition: all 0.3s ease-in-out;
-  height: 36px;
-  filter: grayscale(100%);
-}
-.clients .client-logo:hover img {
-  filter: none;
-  transform: scale(1.1);
-} */
-
-/*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
 .counts {
@@ -332,26 +304,26 @@ a:hover {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
-#header .logo {
+.logo {
   margin: 0;
   padding: 0;
   font-weight: 800;
-  font-size: 35px;
+  font-size: 1.4rem;
   text-transform: uppercase;
   font-style: normal;
 }
 
-#header .logo a {
+.logo a {
   color: #111111;
 }
 
-#header .logo a span {
+.logo a span {
   color: #e03a3c;
 }
 
-#header .logo img {
-  max-height: 50px;
-  margin-right: 20px;
+.logo img {
+  max-height: 35px;
+  margin-right: 10px;
 }
 
 /*--------------------------------------------------------------
@@ -964,35 +936,16 @@ section {
 --------------------------------------------------------------*/
 #footer {
   color: #fff;
-  font-size: 14px;
   background: #111111;
-}
-#footer .logo {
-  margin: 0;
-  padding: 0;
-  font-weight: 800;
-  font-size: 35px;
-  text-transform: uppercase;
-  font-style: normal;
 }
 
 #footer .logo a {
   color: #fff;
 }
 
-#footer .logo a span {
-  color: #e03a3c;
-}
-
-#footer .logo img {
-  max-height: 50px;
-  margin-right: 20px;
-}
-
 #footer .social-links a {
   font-size: 30px;
   display: inline-block;
-  background: #2b2b2b;
   color: #fff;
   line-height: 1;
   padding: 10px 0;
@@ -1185,24 +1138,20 @@ video section
   text-transform: capitalize;
 }
 
-.temp .image {
-  padding: 2rem;
-}
-
 .temp .image video {
-  height: 40rem;
+  height: 38rem;
   object-fit: cover;
-  box-shadow: 2.5rem 2.5rem 0 1rem #ed563b;
+  box-shadow: 1rem 1rem 0 .2rem #ed563b;
 }
 
 .temp .info {
-  padding: 1rem;
+  padding: 5rem;
   margin-top: 2rem;
 }
 
 .temp .info h2 {
   color: #ed563b;
-  font-size: 2.6rem;
+  font-size: 30px;
   font-weight: 700;
 }
 
@@ -1240,10 +1189,9 @@ video section
   border: 20px solid #b8a07e;
 }
 
-#team-section .div-img-bg .team-section-img img {
+#team-section .div-img-bg img {
   width: 100%;
   box-shadow: 0px 0px 85px 0px rgba(0, 0, 0, 0.14);
-  margin-top: -60px;
   margin-left: 40px;
   height: 400px;
   -o-object-fit: cover;
