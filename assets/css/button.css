@@ -1,0 +1,19 @@
+/* DIscover and contact us button */
+.general-button a {
+  font-size: 14px;
+  text-transform: capitalize;
+  font-weight: 400;
+  color: #ff565b;
+  background-color: #ffffff;
+  padding: 11px 25px;
+  border: .2px solid black;
+  border-radius: 7.5px;
+  display: inline-block;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.general-button a:hover {
+  color: #ffffff;
+  background-color: #ff565b;
+}

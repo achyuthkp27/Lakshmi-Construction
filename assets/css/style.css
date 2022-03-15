@@ -132,24 +132,6 @@ html {
   vertical-align: middle;
 }
 
-.white-button a {
-  font-size: 14px;
-  text-transform: capitalize;
-  font-weight: 400;
-  color: #ff565b;
-  background-color: #ffffff;
-  padding: 11px 25px;
-  border-radius: 7.5px;
-  display: inline-block;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-}
-
-.white-button a:hover {
-  color: #ffffff;
-  background-color: #ff565b;
-}
-
 .display-6 {
   font-size: 2rem;
   font-weight: 300;
@@ -1079,21 +1061,6 @@ call-to-action
   color: #fff;
   margin: 15px 0px 25px 0px;
 }
-.main-button a {
-  display: inline-block;
-  font-size: 15px;
-  padding: 12px 20px;
-  background-color: #ed563b;
-  color: #fff;
-  text-align: center;
-  font-weight: 400;
-  text-transform: uppercase;
-  transition: all 0.3s;
-}
-
-.main-button a:hover {
-  background-color: #f9735b;
-}
 
 .team4 {
   color: #8d97ad;
@@ -1141,7 +1108,7 @@ video section
 .temp .image video {
   height: 38rem;
   object-fit: cover;
-  box-shadow: 1rem 1rem 0 .2rem #ed563b;
+  box-shadow: 1rem 1rem 0 0.2rem #ed563b;
 }
 
 .temp .info {
@@ -1198,24 +1165,6 @@ video section
   object-fit: cover;
 }
 
-.team-button a {
-  font-size: 14px;
-  text-transform: capitalize;
-  font-weight: 400;
-  background-color: #ff565b;
-  color: #ffffff;
-  padding: 11px 25px;
-  border-radius: 7.5px;
-  display: inline-block;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-  margin-top: 2rem;
-}
-
-.team-button a:hover {
-  background-color: #2b2b2b;
-  color: #ffffff;
-}
 #team-section .icons a {
   font-size: 30px;
   display: inline-block;
