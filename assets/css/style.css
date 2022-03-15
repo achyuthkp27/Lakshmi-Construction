@@ -925,61 +925,6 @@ section {
   color: #fff;
 }
 
-#footer .social-links a {
-  font-size: 30px;
-  display: inline-block;
-  color: #fff;
-  line-height: 1;
-  padding: 10px 0;
-  margin-right: 10px;
-  border-radius: 4px;
-  text-align: center;
-  width: 50px;
-  height: 50px;
-  transition: 0.3s;
-}
-#footer .social-links .whatsapp:hover {
-  color: #fff;
-  background: #25d366;
-  text-decoration: none;
-}
-
-#footer .social-links .facebook:hover {
-  color: #4267b2;
-  background: #fff;
-  text-decoration: none;
-}
-
-#footer .social-links .instagram:hover {
-  background: #f09433;
-  background: -moz-linear-gradient(
-    45deg,
-    #f09433 0%,
-    #e6683c 25%,
-    #dc2743 50%,
-    #cc2366 75%,
-    #bc1888 100%
-  );
-  background: -webkit-linear-gradient(
-    45deg,
-    #f09433 0%,
-    #e6683c 25%,
-    #dc2743 50%,
-    #cc2366 75%,
-    #bc1888 100%
-  );
-  background: linear-gradient(
-    45deg,
-    #f09433 0%,
-    #e6683c 25%,
-    #dc2743 50%,
-    #cc2366 75%,
-    #bc1888 100%
-  );
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
-  text-decoration: none;
-}
-
 section.whats-trending .section-heading,
 section.whats-trending .left-content {
   margin-right: 0px;
@@ -1112,8 +1057,8 @@ video section
 }
 
 .temp .info {
-  padding: 5rem;
-  margin-top: 2rem;
+  padding: 2rem;
+  margin-top: 1rem;
 }
 
 .temp .info h2 {
@@ -1126,24 +1071,6 @@ video section
   font-size: 1.2rem;
   color: #444;
   margin: 2rem 0;
-}
-
-.temp .info .icons a {
-  font-size: 30px;
-  display: inline-block;
-  color: #2b2b2b;
-  line-height: 1;
-  padding: 10px 0;
-  margin-right: 10px;
-  border-radius: 4px;
-  text-align: center;
-  width: 50px;
-  height: 50px;
-  transition: 0.3s;
-}
-.temp .info .icons a:hover {
-  color: #fff;
-  background: #2b2b2b;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -1163,23 +1090,4 @@ video section
   height: 400px;
   -o-object-fit: cover;
   object-fit: cover;
-}
-
-#team-section .icons a {
-  font-size: 30px;
-  display: inline-block;
-  line-height: 1;
-  padding: 10px 0;
-  margin-right: 10px;
-  border-radius: 4px;
-  text-align: center;
-  width: 50px;
-  height: 50px;
-  transition: 0.3s;
-  margin-top: 2rem;
-  color: #ff565b;
-}
-#team-section .icons a:hover {
-  background-color: #ff565b;
-  color: #fff;
 }
