@@ -80,7 +80,7 @@
   margin-top: 2rem;
 }
 
-#list ul{
+#list ul {
   list-style: none;
 }
 #list ul li::before {
