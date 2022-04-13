@@ -1,0 +1,21 @@
+{
+    "name": "Bad News",
+    "short_name": "News",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#fff",
+    "description": "A news app.",
+    "theme_color": "#238ee0",
+    "icons": [
+      {
+        "src": "img/logo.ico",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "img/logo.ico",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    ]
+  }
