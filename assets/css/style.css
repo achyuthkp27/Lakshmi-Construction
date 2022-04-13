@@ -36,7 +36,7 @@ html {
   position: absolute;
 }
 .main-banner .overlay-intro {
-  background-color: rgba(0, 0, 0, 0.671);
+  /* background-color: rgba(0, 0, 0, 0.671); */
   position: absolute;
   top: 0;
   left: 0px;
@@ -95,10 +95,10 @@ html {
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
-  animation: zoom 4s linear infinite;
+  /* animation: zoom 4s linear infinite; */
 }
 
-@keyframes zoom {
+/* @keyframes zoom {
   0% {
     background-size: 100% 100%;
   }
@@ -114,7 +114,7 @@ html {
   100% {
     background-size: 100% 100%;
   }
-}
+} */
 
 @media (max-width: 1024px) {
   .bg-image {
