@@ -1,8 +1,9 @@
 {
-    "name": "Bad News",
-    "short_name": "News",
+    "name": "Lakshmi Construction",
+    "short_name": "Lakshmi Construction",
     "start_url": ".",
     "display": "standalone",
+    "orientation":"portrait",
     "background_color": "#fff",
     "description": "A news app.",
     "theme_color": "#238ee0",
