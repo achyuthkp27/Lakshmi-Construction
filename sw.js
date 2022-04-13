@@ -43,7 +43,7 @@
 const PRECACHE = "cache-v3";
 const RUNTIME = "runtime-1";
 
-const PRECACHE_URLS = ["index.html", "./", "./assets"];
+const PRECACHE_URLS = ["./index.html", "./", "./assets"];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
