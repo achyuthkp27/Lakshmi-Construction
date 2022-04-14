@@ -14,28 +14,26 @@
 			"sizes": "192x192"
 		},
 		{
-			"src": "./images/icons/android-chrome-512x512.png",
+			"src": "./assets/img/logo.png",
 			"type": "image/png",
 			"sizes": "512x512"
 		},
 		{
-            "src": "./images/icons/android-maskable-192x192.png",
+            "src": "./assets/img/logo.png",
             "type": "image/png",
 			"sizes": "192x192",
 			"purpose": "maskable"
         },
         {
-            "src": "./images/icons/android-maskable-512x512.png",
+            "src": "./assets/img/logo.png",
             "type": "image/png",
             "sizes": "512x512",
 			"purpose": "maskable"
         }
 	],
 	"author": {
-		"name": "Gokulakrishnan Kalaikovan",
-		"website": "https://gokulkrishh.github.io",
-		"github": "https://github.com/gokulkrishh",
-		"source-repo": "https://github.com/gokulkrishh/demo-progressive-web-app"
+		"name": "Achyuth KP",
+		"website": "https://gokulkrishh.github.io"
 	},
 	"gcm_sender_id": "847244712742",
 	"gcm_user_visible_only": true
