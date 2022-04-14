@@ -9,23 +9,23 @@
 	"theme_color": "#29434d",
 	"icons": [
 		{
-			"src": "./assets/img/logo.png",
+			"src": "./assets/img/logo_192x192.png",
 			"type": "image/png",
 			"sizes": "192x192"
 		},
 		{
-			"src": "./assets/img/logo.png",
+			"src": "./assets/img/logo_512x512.png",
 			"type": "image/png",
 			"sizes": "512x512"
 		},
 		{
-            "src": "./assets/img/logo.png",
+            "src": "./assets/img/logo_192x192.png",
             "type": "image/png",
 			"sizes": "192x192",
 			"purpose": "maskable"
         },
         {
-            "src": "./assets/img/logo.png",
+            "src": "./assets/img/logo_512x512.png",
             "type": "image/png",
             "sizes": "512x512",
 			"purpose": "maskable"
@@ -33,7 +33,7 @@
 	],
 	"author": {
 		"name": "Achyuth KP",
-		"website": "https://gokulkrishh.github.io"
+		"website": "https://achyuthkp27.github.io/Lakshmi-Construction/"
 	},
 	"gcm_sender_id": "847244712742",
 	"gcm_user_visible_only": true
