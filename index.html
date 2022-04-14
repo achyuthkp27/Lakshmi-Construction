@@ -4,11 +4,19 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta name="theme-color" content="#29434d" />
+  <meta name="msapplication-TileColor" content="#29434d" />
+  <meta name="msapplication-TileImage" content="./assets/img/logo.png" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Lakshmi Construction" />
+  <meta name="application-name" content="Lakshmi Construction" />
   <title>Lakshmi Construction</title>
   <!-- Favicons -->
   <link href="assets/img/logo.ico" rel="icon">
   <link href="assets/img/logo.ico" rel="apple-touch-icon">
-  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="manifest" href="./manifest.json" />
   <!-- Google Fonts -->
   <link
     href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
@@ -1168,6 +1176,8 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
   <script src="assets/js/animation.js"></script>
+  <script src="assets/js/main-sw.js"></script>
+  <script src="assets/js/offline.js"></script>
   <!-- <script>
     const slideImg = document.getElementsByClassName("main-banner")[0];
     const images = [
