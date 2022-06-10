@@ -1,40 +1,26 @@
 {
 	"name": "Lakshmi Construction",
 	"short_name": "Lakshmi Construction",
-	"description": "Demo for progressive web app with push notifications, background sync etc.",
+	"description": "PWA",
 	"start_url": "./index.html?utm=homescreen",
 	"display": "standalone",
 	"orientation": "portrait",
-	"background_color": "#DC143C",
-	"theme_color": "#29434d",
+	"background_color": "#fdfdfd",
+	"theme_color": "#1b1b1b",
 	"icons": [
 		{
-			"src": "./assets/img/logo_192x192.png",
+			"src": "./assets/img/logo-192x192.png",
 			"type": "image/png",
 			"sizes": "192x192"
 		},
 		{
-			"src": "./assets/img/logo_512x512.png",
+			"src": "./assets/img/logo-512x512.png",
 			"type": "image/png",
 			"sizes": "512x512"
-		},
-		{
-            "src": "./assets/img/logo_192x192.png",
-            "type": "image/png",
-			"sizes": "192x192",
-			"purpose": "maskable"
-        },
-        {
-            "src": "./assets/img/logo_512x512.png",
-            "type": "image/png",
-            "sizes": "512x512",
-			"purpose": "maskable"
-        }
+		}
 	],
 	"author": {
 		"name": "Achyuth KP",
 		"website": "https://achyuthkp27.github.io/Lakshmi-Construction/"
-	},
-	"gcm_sender_id": "847244712742",
-	"gcm_user_visible_only": true
+	}
 }

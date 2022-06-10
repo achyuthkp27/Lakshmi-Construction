@@ -1,8 +1,3 @@
-/*
-  Source: https://github.com/coonsta/cache-polyfill
-  Author: https://github.com/coonsta
-*/
-
 if (!Cache.prototype.add) {
   Cache.prototype.add = function add(request) {
     return this.addAll([request]);
@@ -12,8 +7,6 @@ if (!Cache.prototype.add) {
 if (!Cache.prototype.addAll) {
   Cache.prototype.addAll = function addAll(requests) {
     var cache = this;
-
-    // Since DOMExceptions are not constructable:
     function NetworkError(message) {
       this.name = "NetworkError";
       this.code = 19;
@@ -24,15 +17,12 @@ if (!Cache.prototype.addAll) {
     return Promise.resolve()
       .then(function () {
         if (arguments.length < 1) throw new TypeError();
-
-        // Simulate sequence<(Request or USVString)> binding:
         var sequence = [];
-
         requests = requests.map(function (request) {
           if (request instanceof Request) {
             return request;
           } else {
-            return String(request); // may throw TypeError
+            return String(request);
           }
         });
 
@@ -53,8 +43,6 @@ if (!Cache.prototype.addAll) {
         );
       })
       .then(function (responses) {
-        // TODO: check that requests don't overwrite one another
-        // (don't think this is possible to polyfill due to opaque responses)
         return Promise.all(
           responses.map(function (response, i) {
             return cache.put(requests[i], response);
@@ -68,7 +56,6 @@ if (!Cache.prototype.addAll) {
 }
 
 if (!CacheStorage.prototype.match) {
-  // This is probably vulnerable to race conditions (removing caches etc)
   CacheStorage.prototype.match = function match(request, opts) {
     var caches = this;
 
