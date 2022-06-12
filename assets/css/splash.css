@@ -15,7 +15,7 @@
 
 .welcome-header {
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #ffffff;
@@ -51,7 +51,7 @@
 
 @media screen and (max-width: 1000px) {
   .letter {
-    font-size: 1.7rem;
+    font-size: 1.9rem;
   }
 }
 .red {
