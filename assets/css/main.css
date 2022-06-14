@@ -310,10 +310,9 @@
   font-size: 14px;
   text-transform: capitalize;
   font-weight: 400;
-  color: #ff565b;
-  background-color: #ffffff;
+  color: #ffffff;
+  background-color: #ff565b;
   padding: 11px 25px;
-  border: 0.2px solid crimson;
   border-radius: 7.5px;
   display: inline-block;
   -webkit-transition: all 0.5s;
@@ -321,17 +320,8 @@
 }
 
 .general-button a:hover {
-  color: #ffffff;
-  background-color: #ff565b;
-}
-
-#list ul {
-  list-style: none;
-}
-#list ul li::before {
-  content: "✅";
-  display: inline-block;
-  margin-right: 0.2rem;
+  color: #ff565b;
+  background-color: #ffffff;
 }
 
 /*******************************/
@@ -676,7 +666,7 @@
 /* team-lead section */
 
 .team-lead_me {
-  padding-top: 75px;
+  /* padding-top: 75px;  */
   position: relative;
 }
 
@@ -710,7 +700,7 @@
 }
 
 .team-lead_me .team-lead_e_details h1 {
-  font-size: 70px;
+  font-size: 3xem;
   font-weight: 600;
   margin-top: 50px;
   color: #001d38;
@@ -730,7 +720,6 @@
   font-weight: 400;
   color: #727272;
   padding: 0 50px;
-  text-align: justify;
 }
 .team-lead_me .team-lead_img {
   position: relative;
